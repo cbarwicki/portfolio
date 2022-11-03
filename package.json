@@ -1,8 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://cbarwicki.github.io/portfolio",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,6 +22,7 @@
     "autoprefixer": "^10.4.12",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.0",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1"
   }
