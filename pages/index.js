@@ -80,7 +80,7 @@ export default function Home() {
               src={webreadsvideo} 
               type='video/mp4' 
               controls 
-              className=' max-w-md py-5 mx-auto md:max-w-3xl' 
+              className=' max-w-xs py-5 mx-auto md:max-w-3xl' 
             />
             <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
               This application uses K-means Clustering, which is a type of machine learning algorithm, 
@@ -97,7 +97,7 @@ export default function Home() {
               src={campuscrudvideo} 
               type='video/mp4' 
               controls 
-              className=' max-w-md py-5 mx-auto md:max-w-3xl'
+              className=' max-w-xs py-5 mx-auto md:max-w-3xl'
             />
             <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
               This application is a college campus managment system. The user can add colleges as 
