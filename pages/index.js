@@ -35,6 +35,7 @@ export default function Home() {
                   className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' 
                   href={'/Chris_Barwicki_Resume.pdf'}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -102,7 +103,7 @@ export default function Home() {
               This application is a college campus managment system. The user can add colleges as 
               well as students, which are all stored in a Postgres database and displayed for the user
               to see. Then the user is free to edit any information about the students or colleges,
-              such as their profile picture, the school's address, or the student's GPA and email
+              such as their profile picture, the school&apos;s address, or the student&apos;s GPA and email
               address. The user is also free to delete any entry in the database they want.
             </p>
           </div>
