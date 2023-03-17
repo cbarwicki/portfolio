@@ -5,7 +5,7 @@ import webreadsvideo from '../public/webreadsdemo.mp4';
 import campuscrudvideo from '../public/campuscruddemo.mp4';
 import { useState } from 'react';
 import Image from 'next/image';
-import profilepic from '../public/profilepic.png'
+import profilepic from '../public/profilepic2.png'
 import ReactIcon from '../public/react-icon.png'
 import CppIcon from '../public/cpp-icon.png'
 import JsIcon from '../public/js-icon.png'
@@ -64,7 +64,7 @@ export default function Home() {
               <AiFillGithub />
             </a>
           </div>
-          <div className=' relative mx-auto mt-10 w-80 h-80'>
+          <div className=' relative mx-auto mt-20 w-80 h-80'>
             <Image src={profilepic}  />
           </div>
         </section>
