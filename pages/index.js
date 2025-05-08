@@ -3,6 +3,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import webreadsvideo from '../public/webreadsdemo.mp4';
 import campuscrudvideo from '../public/campuscruddemo.mp4';
+import musicplayerivdeo from '../public/musicplayerdemo.mp4';
 import { useState } from 'react';
 import Image from 'next/image';
 import profilepic from '../public/profilepic2.png'
@@ -90,6 +91,22 @@ export default function Home() {
               favorite books, which is used to fuel the machine learning algorithm which suggests
               which books the user should read next. The user is able to customize their profile with 
               various themes as well as profile pictures.
+            </p>
+          </div>
+          <div>
+            <video 
+              src={musicplayerivdeo} 
+              type='video/mp4' 
+              controls 
+              className=' max-w-xs py-5 mx-auto md:max-w-3xl' 
+            />
+            <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
+              This is an application made with Python, Django, and React.js that acts as a collaborative 
+              music playing system. Through integration with Spotify API, the user can connect the 
+              application to their Spotify account to control the music which is playing. The host user
+              can create a room, which others using the application can join by entering the room code.
+              Features include pausing or unpausing the music currently being played, as well as voting
+              to skip the current song being played.
             </p>
           </div>
           <div>
