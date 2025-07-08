@@ -52,7 +52,7 @@ export default function Home() {
               Developer and designer.
             </h3>
             <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-300'>
-              My name is Chris, I'm an aspiring software engineer with a passion for coding. Below is some of my work!
+              My name is Chris, I&apos;m an aspiring software engineer with a passion for coding. Below is some of my work!
             </p>
           </div>
           <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300'>
