@@ -4,6 +4,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import webreadsvideo from '../public/webreadsdemo.mp4';
 import campuscrudvideo from '../public/campuscruddemo.mp4';
 import musicplayerivdeo from '../public/musicplayerdemo.mp4';
+import yugiappvideo from '../public/yugiappdemo.mp4';
 import { useState } from 'react';
 import Image from 'next/image';
 import profilepic from '../public/profilepic2.png'
@@ -34,7 +35,7 @@ export default function Home() {
               <li>
                 <a 
                   className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' 
-                  href={'/Chris_Barwicki_Resume.pdf'}
+                  href={'/resumeSWE.pdf'}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,10 +52,7 @@ export default function Home() {
               Developer and designer.
             </h3>
             <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-300'>
-              Detail-oriented, organized and meticulous developer. Enthusiastic team
-              player ready to contribute to company success. Complex problem solver with analytical and driven mindset. Dedicated to achieving
-              demanding development objectives according to tight schedules while
-              producing impeccable code.
+              My name is Chris, I'm an aspiring software engineer with a passion for coding. Below is some of my work!
             </p>
           </div>
           <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300'>
@@ -75,6 +73,21 @@ export default function Home() {
             <h3 className=' text-3xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-teal-500 py-1 text-center md:text-4xl'>
               Portfolio
             </h3>
+          </div>
+          <div>
+            <video 
+              src={yugiappvideo} 
+              type='video/mp4' 
+              controls 
+              className=' max-w-xs py-5 mx-auto md:max-w-3xl' 
+            />
+            <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
+              This application lets the user build thier own deck for the Yugioh Trading Card game.
+              It works with a pubic yugioh API with to make API calls which retrieve information on
+              over 13,000 cards. This application gets images of cards from AWS S3, which was used to
+              host over 26,000 images of yugioh cards. The user can search through every card, using
+              extensive filters, to build their own main deck, extra deck and side deck.
+            </p>
           </div>
           <div>
             <video 
