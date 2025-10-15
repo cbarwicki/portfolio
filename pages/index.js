@@ -75,18 +75,24 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <video 
-              src={yugiappvideo} 
-              type='video/mp4' 
-              controls 
-              className=' max-w-xs py-5 mx-auto md:max-w-3xl' 
-            />
+            <a href='https://yugioh-deck-editor.vercel.app/' target='_blank'>
+              <video 
+                src={yugiappvideo} 
+                type='video/mp4' 
+                controls 
+                className=' max-w-xs py-5 mx-auto md:max-w-3xl'
+              />
+            </a>
             <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
-              This application lets the user build thier own deck for the Yugioh Trading Card game.
-              It works with a pubic yugioh API with to make API calls which retrieve information on
-              over 13,000 cards. This application gets images of cards from AWS S3, which was used to
-              host over 26,000 images of yugioh cards. The user can search through every card, using
-              extensive filters, to build their own main deck, extra deck and side deck.
+              This application lets the user build their own deck for the Yugioh Trading Card game.
+              It makes API calls to a pubic Yugioh API, which retrieves information on
+              over 13,000 cards. This application gets images of cards from AWS S3 cloud storage, 
+              which was used to host over 26,000 images of yugioh cards. The user can search through 
+              every card, using extensive filters based on card properties, such as Atrribute, Type, 
+              and Level, to build their own main deck, extra deck and side deck.&ensp;
+              <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' class="text-blue-600 underline hover:text-blue-800">
+                This application is hosted here.
+              </a>
             </p>
           </div>
           <div>
