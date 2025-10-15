@@ -87,8 +87,8 @@ export default function Home() {
               This application lets the user build their own deck for the Yugioh Trading Card game.
               It makes API calls to a pubic Yugioh API, which retrieves information on
               over 13,000 cards. This application gets images of cards from AWS S3 cloud storage, 
-              which was used to host over 26,000 images of yugioh cards. The user can search through 
-              every card, using extensive filters based on card properties, such as Atrribute, Type, 
+              which was used to host over 26,000 images of Yugioh cards. The user can search through 
+              every card, using extensive filters based on card properties, such as Attribute, Type, 
               and Level, to build their own main deck, extra deck and side deck.&ensp;
               <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' rel="noreferrer noopener" class="text-blue-600 underline hover:text-blue-800">
                 This application is hosted here.
