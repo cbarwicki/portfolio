@@ -75,7 +75,7 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' rel="noopener">
+            <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' rel="noreferrer noopener">
               <video 
                 src={yugiappvideo} 
                 type='video/mp4' 
@@ -90,7 +90,7 @@ export default function Home() {
               which was used to host over 26,000 images of yugioh cards. The user can search through 
               every card, using extensive filters based on card properties, such as Atrribute, Type, 
               and Level, to build their own main deck, extra deck and side deck.&ensp;
-              <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' rel="noopener" class="text-blue-600 underline hover:text-blue-800">
+              <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' rel="noreferrer noopener" class="text-blue-600 underline hover:text-blue-800">
                 This application is hosted here.
               </a>
             </p>
