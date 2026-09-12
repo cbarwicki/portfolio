@@ -5,6 +5,7 @@ import webreadsvideo from '../public/webreadsdemo.mp4';
 import campuscrudvideo from '../public/campuscruddemo.mp4';
 import musicplayerivdeo from '../public/musicplayerdemo.mp4';
 import yugiappvideo from '../public/yugiappdemo.mp4';
+import raretcgvideo from '../public/raretcgdemo.mp4';
 import { useState } from 'react';
 import Image from 'next/image';
 import profilepic from '../public/profilepic2.png'
@@ -75,14 +76,33 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <a href='https://yugioh-deck-editor.vercel.app/' target='_blank' rel="noreferrer noopener">
-              <video 
-                src={yugiappvideo} 
-                type='video/mp4' 
-                controls 
-                className=' max-w-xs py-5 mx-auto md:max-w-3xl'
-              />
-            </a>
+            <video 
+              src={raretcgvideo} 
+              type='video/mp4' 
+              controls 
+              className=' max-w-xs py-5 mx-auto md:max-w-3xl'
+            />
+            <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
+              This application is an e-commerce platform for trading cards. It is integrated with 
+              Stripe API, which is used to simulate payment processing. The express.js backend is used
+              to handle webhooks from Stripe, which verify that the payment was successful and that the
+              order is complete. The express.js backend also connects to the MySQL database, which is 
+              hosted on a cloud server using Aiven. The database stores tables containing information 
+              about cards, users, their carts, and their orders. If a user is logged in and they have
+              the "admin" role, they are able to add new cards to the database, as well as edit or delete 
+              existing cards. The frontend of this application is built with Next.js and Tailwind CSS.
+              <a href='https://raretcg-frontend.vercel.app/' target='_blank' rel="noreferrer noopener" class="text-blue-600 underline hover:text-blue-800">
+                This application is hosted here.
+              </a>
+            </p>
+          </div>
+          <div>
+            <video 
+              src={yugiappvideo} 
+              type='video/mp4' 
+              controls 
+              className=' max-w-xs py-5 mx-auto md:max-w-3xl'
+            />
             <p className=' text-md text-center py-5 leading-8 text-gray-800 md:text-xl max-w-3xl mx-auto dark:text-gray-300'>
               This application lets the user build their own deck for the Yugioh Trading Card game.
               It makes API calls to a pubic Yugioh API, which retrieves information on
