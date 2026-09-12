@@ -89,7 +89,7 @@ export default function Home() {
               order is complete. The express.js backend also connects to the MySQL database, which is 
               hosted on a cloud server using Aiven. The database stores tables containing information 
               about cards, users, their carts, and their orders. If a user is logged in and they have
-              the "admin" role, they are able to add new cards to the database, as well as edit or delete 
+              the &quot;admin&quot; role, they are able to add new cards to the database, as well as edit or delete 
               existing cards. The frontend of this application is built with Next.js and Tailwind CSS.
               <a href='https://raretcg-frontend.vercel.app/' target='_blank' rel="noreferrer noopener" class="text-blue-600 underline hover:text-blue-800">
                 This application is hosted here.
